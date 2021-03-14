@@ -61,5 +61,6 @@ Atelier précédent sur le capteur HC-SF04: https://github.com/ctw974/Ultrasonic
 
 - Correction de l'exercice 3
 - Les Timers
+  - Déclenchement cyclique par Timer de la mesure de distance
 - Les modes *Sleep*
 - ...
