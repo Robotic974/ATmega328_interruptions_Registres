@@ -63,14 +63,13 @@ Atelier précédent sur le capteur HC-SF04: https://github.com/ctw974/Ultrasonic
 
 4. A la réception du retour des *ultra-son*, le capteur va passer la broche ECHO à l'état **BAS**. Donc le temps entre le passage de l'état **HAUT** à l'état **BAS** correspondra à la distance mesurée.
 
-<div align="center"><img alt="Trames HC-SR04" width="100%" src="assets/HC-SR04_Trames.jpg" /></div>
+<div align="center"><img alt="Trames HC-SR04" width="100%" src="assets/HC-SR04_trames.png" /></div>
 
 **Aide N°1:** Le lancement d'une nouvelle mesure se fait dans la boucle principale (pour cet exercice) de la même manière que lors du précèdent atelier du capteur HC-SF04 (lien ci dessus)
 
 **Aide N°2:** Avoir une variable afin de lancer une nouvelle mesure que si la precedente est terminée
 
 **Aide N°3:** La routine d'interruption sera lancée à chaque changement de la broche ECHO. A vous de bien choisir la broche de la carte Arduino=> ATmega328.
-
 
 ---
 
