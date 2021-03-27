@@ -47,13 +47,13 @@ Tous les détails se trouvent en commentaire dans le code source.
 
 ---
 
-### **Exercice 3:** Mesure de distance avec le Capteur **HC-SF04** par interruption
+### **Exercice 3:** Mesure de distance avec le Capteur **HC-SR04** par interruption
 
-**Objectif:** Effectuer des mesures de distance par le capteur HC-SF04 en remplacent la fonction bloquante pulseIn() par une gestion par interruption de la broche ECHO.
+**Objectif:** Effectuer des mesures de distance par le capteur HC-SR04 en remplacent la fonction bloquante pulseIn() par une gestion par interruption de la broche ECHO.
 
-Atelier précédent sur le capteur HC-SF04: https://github.com/ctw974/Ultrasonic-sensor
+Atelier précédent sur le capteur HC-SR04: https://github.com/ctw974/Ultrasonic-sensor
 
-#### **Rappel du principe de fonctionnement du capteur HC-SF04:**
+#### **Rappel du principe de fonctionnement du capteur HC-SR04:**
 
 1. Pour lancer une nouvelle mesure, il convient de passer la broche TRIGGER à l'état **HAUT** pendant 10 µs
 
@@ -65,7 +65,7 @@ Atelier précédent sur le capteur HC-SF04: https://github.com/ctw974/Ultrasonic
 
 <div align="center"><img alt="Trames HC-SR04" width="100%" src="assets/HC-SR04_trames.png" /></div>
 
-**Aide N°1:** Le lancement d'une nouvelle mesure se fait dans la boucle principale (pour cet exercice) de la même manière que lors du précèdent atelier du capteur HC-SF04 (lien ci dessus)
+**Aide N°1:** Le lancement d'une nouvelle mesure se fait dans la boucle principale (pour cet exercice) de la même manière que lors du précèdent atelier du capteur HC-SR04 (lien ci dessus)
 
 **Aide N°2:** Avoir une variable afin de lancer une nouvelle mesure que si la precedente est terminée
 
